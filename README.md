@@ -1,8 +1,6 @@
 # Formato padrão de telefone para formulariom 
 
-feito para que seu formulario fique mais legivel
-
-como manipular o numero de telefone para deixar com formato legivel
+Feito para tornar o seu formulário mais legível, como formatar o número de telefone para uma apresentação mais clara.
 
 
 
@@ -41,7 +39,7 @@ como manipular o numero de telefone para deixar com formato legivel
 ![image](https://github.com/Rafael-Teles-Alves/formato-Telefone-Formulario/assets/94096413/de4ef129-48b1-4f51-a98b-4ff31bab50bc)
 
 
-JavaSript faz o tratamento para que o código não saia errado. 😉
+# JavaScript faz o tratamento para que o código não saia errado. 😉
 
 ![image](https://github.com/Rafael-Teles-Alves/formato-Telefone-Formulario/assets/94096413/716213ed-4e26-4abf-99c7-b54f09741fd1)
 
