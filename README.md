@@ -1,4 +1,4 @@
-# Formato padrão de telefone para formulariom 
+# Padronização Do Formato De Telefone Para Formulários.
 
 Feito para tornar o seu formulário mais legível, como formatar o número de telefone para uma apresentação mais clara.
 
