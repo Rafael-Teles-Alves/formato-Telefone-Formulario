@@ -1,0 +1,63 @@
+codigo usado para que seja manipulado o Digitação do usuario
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Transformação de Número de Telefone</title>
+
+<style>
+    /* Adicione estilos CSS conforme necessário */
+    body {
+        font-family: Arial, sans-serif;
+    }
+    input[type="text"] {
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    button {
+        padding: 8px 16px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #0056b3;
+    }
+</style>
+
+
+</head>
+<body>
+
+<h2>Digite um número de telefone:</h2>
+
+<input type="text" id="phoneInput" placeholder="Digite o número de telefone">
+<button onclick="transformPhoneNumber()">Transformar</button>
+
+<!-- adicionando javascript para manipular nosso o que o usuario está digitando -->
+<script>
+    // vamos pegar os dados e tranformar em valor antes de tudo
+function transformPhoneNumber() {
+    var phoneInput = document.getElementById("phoneInput");
+    var formattedPhone = transformPhone(phoneInput.value);
+    phoneInput.value = formattedPhone;
+}
+
+function transformPhone(phone) {
+    // Remove caracteres não numéricos do número de telefone
+    phone = phone.replace(/\D/g, '');
+
+    // Formatar o número de telefone para (XX) XXXX-XXXX
+    var formattedPhone = '(' + phone.substring(0, 2) + ') ' + phone.substring(2, 6) + '-' + phone.substring(6, 10);
+    return formattedPhone;
+}
+</script>
+
+</body>
+</html>
